@@ -4,7 +4,7 @@
 CC = g++
 
 TARGET = libimplicit.so
-OBJS = flexibleArray.o
+OBJS = flexibleArray.o ptable.o
 CFLAGS = -O3
 LIBS = -L/opt/local/lib -lSDLmain
 
