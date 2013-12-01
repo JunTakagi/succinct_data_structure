@@ -115,13 +115,11 @@ bool FlexibleArray::write(uint64_t i, uint64_t num) {
     put_head &= ~head_mask;
     put_head |= num >> (BLOCK_SIZE - tail_shift);
     array[block_head] = put_head;
-    dump_uint64("put_head ", put_head);
 
     uint64_t put_tail = array[block_tail];
     put_tail &= ~tail_mask;
     put_tail |= num << tail_shift;
     array[block_tail] = put_tail;
-    dump_uint64("put_tail ", put_tail);
   }
 
  return true;
