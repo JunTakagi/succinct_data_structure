@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-namespace implicit {
+namespace succinct {
 
 class FlexibleArray {
   public:
@@ -24,6 +24,6 @@ class FlexibleArray {
     static const uint64_t BLOCK_SIZE = sizeof(uint64_t) * 8;
 };
 
-} // namespace implicit
+} // namespace succinct
 
 #endif //__FLEXIBLE_BYTE_ARRAY__

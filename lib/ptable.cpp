@@ -1,7 +1,7 @@
 #include "ptable.hpp"
 #include <iostream>
 
-namespace implicit {
+namespace succinct {
 namespace dictionary {
 
 // debug
@@ -79,4 +79,4 @@ void Ptable::dump(unsigned char mode) {
 }
 
 } // dictionary
-} // implicit
+} // succinct

@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include "flexibleArray.hpp"
 
-namespace implicit {
+namespace succinct {
 
 namespace dictionary {
 
@@ -32,6 +32,6 @@ class Ptable {
 };
 
 } // namespace dictionary
-} // namespace implicit
+} // namespace succinct
 
 #endif //__IMPLICIT_TABLE_P_TABLE__

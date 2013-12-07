@@ -1,9 +1,9 @@
-# Makefile for implicit data structure
+# Makefile for succinct data structure
 
 # Macros
 CC = g++
 
-TARGET = libimplicit.so
+TARGET = libsuccinct.so
 OBJS = flexibleArray.o ptable.o
 CFLAGS = -O3
 LIBS = -L/opt/local/lib -lSDLmain

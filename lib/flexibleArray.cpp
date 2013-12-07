@@ -3,7 +3,7 @@
 #include <math.h>
 #include <iostream>
 
-namespace implicit {
+namespace succinct {
 
 // debug
 inline void dump_uint64(std::string s, uint64_t num) {
@@ -154,12 +154,12 @@ void FlexibleArray::dump() {
   std::cout << std::endl << "=========================================" << std::endl;
 }
 
-} // namespace implicit
+} // namespace succinct
 
 //debug
 /*
 int main() {
-  implicit::FlexibleArray array(7, 64);
+  succinct::FlexibleArray array(7, 64);
   array.write(2, 255);
   array.dump();
   array.write(0, 8);
